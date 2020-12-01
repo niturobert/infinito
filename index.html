@@ -13,6 +13,30 @@
         <div class="uk-navbar-left">
             <a class="uk-navbar-item" href="index.html"><i class="material-icons md-icon text-on-app-bar">menu</i></a>
             <span class="uk-navbar-item md-top-app-bar__title text-on-app-bar">Infinito</span>
+            <a class="uk-visible@m md-btn md-btn-text md-btn-primary md-color-grey-50 ripple-surface ripple-surface--primary" style="margin-left: 16px">Simulazioni</a>
+            <div uk-dropdown="animation:uk-animation-slide-top-small; duration: 200">
+                <ul class="uk-nav uk-dropdown-nav">
+                    <!-- <li class="uk-nav-header">Header</li> -->
+                    <!-- <li class="uk-active ripple-surface"><a href="#">Effetto Droste</a></li>
+                    <li class="ripple-surface"><a href="#">Infinito negli scacchi</a></li> -->
+                    <li class="ripple-surface"><a href="simulations/paradosso-di-borel/index.html">Paradosso di Borel</a></li>
+                </ul>
+            </div>
+            <a class="uk-visible@m md-btn md-btn-text md-btn-primary md-color-grey-50 ripple-surface ripple-surface--primary">Spiegazioni</a>
+            <div uk-dropdown="animation:uk-animation-slide-top-small; duration: 200">
+                <ul class="uk-nav uk-dropdown-nav">
+                    <li class="uk-active ripple-surface"><a href="#">Non disponibile</a></li>
+                </ul>
+            </div>
+            <a class="uk-hidden@m md-btn md-btn-text md-btn-primary md-color-grey-50 ripple-surface ripple-surface--primary">Strumenti</a>
+            <div uk-dropdown="animation:uk-animation-slide-top-small; duration: 200">
+                <ul class="uk-nav uk-dropdown-nav">
+                    <li class="uk-nav-header">Simulazioni</li>
+                    <li class="ripple-surface"><a href="simulations/paradosso-di-borel/index.html">Paradosso di Borel</a></li>
+                    <li class="uk-nav-header">Spiegazioni</li>
+                    <li class="uk-active ripple-surface"><a href="#">Non disponibile</a></li>
+                </ul>
+            </div>
         </div>
         <div class="uk-navbar-right">
             <ul class="uk-navbar-nav">
@@ -22,7 +46,52 @@
         </div>
     </nav>
     <main style="margin-top: 2vh; margin-left: 2vw; margin-right: 2vw; width: 96vw;">
-        <div class="uk-container uk-container-expand">
+        <div class="uk-container">
+            <h1>L'infinito e oltre</h1>
+            <h3>Argomenti</h3>
+            <p>Questo documento parla delle origini dell'infinito dagli antichi egizi al Novecento, la storia del simbolo dall'uroboro alla lemniscata, la soluzione ai suoi paradossi piu' famosi e le sue applicazioni in settori scientifici e umanistici.</p>
+            <h3>Autori</h3>
+            <p>Siamo degli studenti dell'istituto ITIS Einstein - De Lorenzo. Ecco le nostre informazioni.</p>
+            <div class='uk-overflow-auto'>
+                <table class='uk-table uk-table-dense uk-table-hover'>
+                    <thead >
+                            <th>
+                                <span class="datatable-header uk-text-bold">Nome</span>
+                            </th>
+                            <th>
+                                <span class="datatable-header uk-text-bold">Cognome</span>
+                            </th>
+                            <th>
+                                <span class="datatable-header uk-text-bold">Email</span>
+                            </th>
+                            <th>
+                                <span class="datatable-header uk-text-bold">Parte</span>
+                            </th>
+                    </thead>
+                    <tbody>
+                            <tr>
+                                <td>Robert-Georgian</td>
+                                <td>Nitu</td>
+                                <td>nitu.robert.georgian@gmail.com</td>
+                                <td>Storia, Origini del Simbolo e Paradossi</td>
+                            </tr>
+                            <tr>
+                                <td>Alessio</td>
+                                <td>Esposito</td>
+                                <td>alesp.swc.7pz@gmail.com</td>
+                                <td>Uso in materie scientifiche</td>
+                            </tr>
+                            <tr>
+                                <td>Emanuele-Pio</td>
+                                <td>Ganz</td>
+                                <td>emanuelepioganz@gmail.com</td>
+                                <td>Uso in materie umanistiche e cosmologia</td>
+                            </tr>
+                    </tbody>
+                </table>
+              </div>
+              <h3>Open Source</h3>
+              <p>Il codice sorgente per le simulazioni puo' essere redistribuito sotto i termini della licenza MIT.</p>
         </div>
     </main>
     <div id="copyright" class="uk-text-center" style="margin-top: 32px; margin-bottom: 32px">
